@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.19.1'
+version = '2.13.19.2'
 
 setup(name='hoka.browser.pcheck',
       version=version,
