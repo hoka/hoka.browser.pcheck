@@ -1,0 +1,16 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five">
+
+    <includeDependencies package="." />
+    <includePlugins package="." />
+
+    <browser:page
+        for="*"
+        name="pcheck"
+        class=".browser.Browser"
+        permission="zope2.View"
+        allowed_interface=".browser.IPCheck"
+        />
+
+</configure>
