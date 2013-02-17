@@ -30,6 +30,8 @@ setup(name='hoka.browser.pcheck',
         'setuptools',
         'Zope2',
         'hoka.adapter.auth',
+        'hoka.browser.base',
+        'hoka.patches.get_browser',
         'z3c.autoinclude',
       ],
       extras_require={'test': [
