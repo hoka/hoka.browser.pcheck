@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.19.2'
+version = '2.13.19.3'
 
 setup(name='hoka.browser.pcheck',
       version=version,
@@ -21,7 +21,7 @@ setup(name='hoka.browser.pcheck',
       keywords='browser check permission authorize hoka',
       author='Kai Hoppert',
       author_email='kai.hoppert@online.de',
-      url='http://eggserver.tcis.de/hoka.browser.pcheck',
+      url='https://github.com/hoka/hoka.browser.pcheck',
       license='GPL version 2',
       packages=find_packages(),
       namespace_packages=['hoka','hoka.browser'],
